@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Galpil/Scene/MainMenu.unity
+    guid: 4e62f349c4364af4a84b3a74c3559899
+  - enabled: 1
+    path: Assets/_Galpil/Scene/ScanAR.unity
+    guid: 49e8dc59ecd00f8499a84555335f9308
