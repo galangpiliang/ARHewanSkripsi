@@ -3046,51 +3046,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000030517578, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &458999884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 458999886}
-  - component: {fileID: 458999885}
-  m_Layer: 0
-  m_Name: GameManager3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &458999885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 458999884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437fb24af9bf707438fd058067003231, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  draggableImage:
-  - {fileID: 235506357}
-  - {fileID: 963457710}
-  - {fileID: 1354029306}
-  - {fileID: 622561453}
---- !u!4 &458999886
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 458999884}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461547481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,17 +3226,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1255497747}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 2066397348}
         m_MethodName: GoToScene
         m_Mode: 3
@@ -3654,54 +3598,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 545864003}
---- !u!1 &551592257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 551592259}
-  - component: {fileID: 551592258}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &551592258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 551592257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6967a26a1599eb47b66eec27f185e72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textJawaban: {fileID: 545864007}
-  objPilihan:
-  - {fileID: 1047340807}
-  - {fileID: 2027535719}
-  - {fileID: 1624280952}
-  - {fileID: 811778572}
-  panelBenar: {fileID: 263804294}
-  panelSalah: {fileID: 461547481}
---- !u!4 &551592259
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 551592257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599482740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5418,8 +5314,9 @@ GameObject:
   - component: {fileID: 911745145}
   - component: {fileID: 911745147}
   - component: {fileID: 911745146}
+  - component: {fileID: 911745148}
   m_Layer: 5
-  m_Name: GameAyam1
+  m_Name: GameAyam1-Lengkap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5478,6 +5375,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 911745144}
+--- !u!114 &911745148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911745144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6967a26a1599eb47b66eec27f185e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textJawaban: {fileID: 545864007}
+  objPilihan:
+  - {fileID: 1047340807}
+  - {fileID: 2027535719}
+  - {fileID: 1624280952}
+  - {fileID: 811778572}
+  panelBenar: {fileID: 263804294}
+  panelSalah: {fileID: 461547481}
 --- !u!1 &916260915
 GameObject:
   m_ObjectHideFlags: 0
@@ -5994,7 +5910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6413793, b: 0, a: 0.9019608}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.472}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6152,53 +6068,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1034489456}
---- !u!1 &1040272185
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1040272187}
-  - component: {fileID: 1040272188}
-  m_Layer: 0
-  m_Name: GameManager2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1040272187
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040272185}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1040272188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040272185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d25c796787e7b64695c0ce82c822733, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objPilihan:
-  - {fileID: 39506808}
-  - {fileID: 541543150}
-  - {fileID: 2045340934}
-  - {fileID: 104355169}
-  panelBenar: {fileID: 2125453968}
-  panelSalah: {fileID: 1878348696}
 --- !u!1 &1042410186
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,8 +6078,9 @@ GameObject:
   - component: {fileID: 1042410187}
   - component: {fileID: 1042410189}
   - component: {fileID: 1042410188}
+  - component: {fileID: 1042410190}
   m_Layer: 5
-  m_Name: GameAyam2
+  m_Name: GameAyam2-Hitung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6269,6 +6139,24 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1042410186}
+--- !u!114 &1042410190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042410186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d25c796787e7b64695c0ce82c822733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objPilihan:
+  - {fileID: 39506808}
+  - {fileID: 541543150}
+  - {fileID: 2045340934}
+  - {fileID: 104355169}
+  panelBenar: {fileID: 2125453968}
+  panelSalah: {fileID: 1878348696}
 --- !u!1 &1047340805
 GameObject:
   m_ObjectHideFlags: 0
@@ -8985,7 +8873,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1584679847
 GameObject:
@@ -9809,6 +9697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f1a36bf4dacb248968f360418161e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelLoading: {fileID: 0}
 --- !u!1 &1779456559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11005,7 +10894,7 @@ RectTransform:
   - {fileID: 465273995}
   - {fileID: 1255497748}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11353,6 +11242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066397349}
   - component: {fileID: 2066397348}
+  - component: {fileID: 2066397350}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -11371,6 +11261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f1a36bf4dacb248968f360418161e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelLoading: {fileID: 1255497747}
 --- !u!4 &2066397349
 Transform:
   m_ObjectHideFlags: 0
@@ -11384,6 +11275,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2066397350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066397347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e4342ff900a7e4291d52e8cca76cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objGame:
+  - {fileID: 911745144}
+  - {fileID: 1042410186}
+  - {fileID: 2099737331}
 --- !u!1 &2087086666
 GameObject:
   m_ObjectHideFlags: 0
@@ -11504,8 +11410,9 @@ GameObject:
   - component: {fileID: 2099737332}
   - component: {fileID: 2099737334}
   - component: {fileID: 2099737333}
+  - component: {fileID: 2099737335}
   m_Layer: 5
-  m_Name: GameAyam3
+  m_Name: GameAyam3-Match
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11564,6 +11471,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2099737331}
+--- !u!114 &2099737335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099737331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437fb24af9bf707438fd058067003231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggableImage:
+  - {fileID: 235506357}
+  - {fileID: 963457710}
+  - {fileID: 1354029306}
+  - {fileID: 622561453}
+  panelBenar: {fileID: 993107038}
 --- !u!1 &2125453968
 GameObject:
   m_ObjectHideFlags: 0

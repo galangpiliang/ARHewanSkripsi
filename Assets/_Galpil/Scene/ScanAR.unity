@@ -11184,7 +11184,6 @@ GameObject:
   - component: {fileID: 1476339098}
   - component: {fileID: 1476339097}
   - component: {fileID: 1476339096}
-  - component: {fileID: 1476339095}
   m_Layer: 5
   m_Name: ButtonMenu
   m_TagString: Untagged
@@ -11210,17 +11209,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: 4}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 1, y: 0}
---- !u!114 &1476339095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1476339093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f1a36bf4dacb248968f360418161e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1476339096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11260,7 +11248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1476339095}
+      - m_Target: {fileID: 2029054622}
         m_MethodName: GoToScene
         m_Mode: 3
         m_Arguments:
@@ -11270,17 +11258,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1411555280}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -15012,6 +14989,47 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ebe0ae0ca6973c2478438124162e04e4, type: 3}
   m_PrefabInternal: {fileID: 2011319960}
+--- !u!1 &2029054621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2029054623}
+  - component: {fileID: 2029054622}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2029054622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029054621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f1a36bf4dacb248968f360418161e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelLoading: {fileID: 1411555280}
+--- !u!4 &2029054623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029054621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2035685367
 GameObject:
   m_ObjectHideFlags: 0

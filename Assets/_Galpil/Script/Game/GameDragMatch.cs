@@ -6,6 +6,7 @@ public class GameDragMatch : MonoBehaviour {
 
 	public DraggableImage[] draggableImage;
 	public static GameDragMatch instance;
+	public GameObject panelBenar;
 
 	public void Start(){
 		instance = this;
@@ -21,6 +22,8 @@ public class GameDragMatch : MonoBehaviour {
 		}
 		if (score == 4){
 			Debug.Log("Win");
+			panelBenar.SetActive(true);
+			LoadScene.instance.RestartScene();
 		}
 	}
 }

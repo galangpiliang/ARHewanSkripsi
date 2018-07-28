@@ -38,7 +38,7 @@ public class GameHitung : MonoBehaviour {
 
 	void EnablePanelBenar(){
 		panelBenar.SetActive(true);
-		Invoke("DisableOBJ",4f);
+		LoadScene.instance.RestartScene();	
 	}
 
 }
