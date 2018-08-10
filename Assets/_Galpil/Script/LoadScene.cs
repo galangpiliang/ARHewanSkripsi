@@ -23,4 +23,8 @@ public class LoadScene : MonoBehaviour {
 		panelLoading.SetActive(true);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
+
+	public void QuitGame(){
+		Application.Quit();
+	}
 }
