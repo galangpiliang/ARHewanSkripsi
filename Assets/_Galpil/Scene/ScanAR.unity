@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.5
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3154791, g: 0.35171422, b: 0.41182062, a: 0.5}
+  m_IndirectSpecularColor: {r: 0.31548014, g: 0.35171604, b: 0.41182312, a: 0.5}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1657,6 +1657,7 @@ GameObject:
   - component: {fileID: 273733158}
   - component: {fileID: 273733157}
   - component: {fileID: 273733156}
+  - component: {fileID: 273733161}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -1744,6 +1745,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 13.193001, y: 0, z: 0}
+--- !u!114 &273733161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 273733155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7e2f051f689a343918b5ba3a0326ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &285958590
 GameObject:
   m_ObjectHideFlags: 0
@@ -14647,7 +14659,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5efee079c96e481a9f4afeebfeda9f8d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef67ebdc7cdb4f07b07864f0aca9bd5c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
